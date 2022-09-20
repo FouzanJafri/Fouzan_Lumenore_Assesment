@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-13T16:00:45 IST" name="Default suite" finished-at="2022-07-13T16:01:41 IST" duration-ms="55410">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T16:00:45 IST" name="Default test" finished-at="2022-07-13T16:01:41 IST" duration-ms="55410">
+      <class name="demo.Login">
+        <test-method is-config="true" signature="beff()[pri:0, instance:demo.Login@51671b08]" started-at="2022-07-13T16:00:45 IST" name="beff" finished-at="2022-07-13T16:00:53 IST" duration-ms="7116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beff -->
+        <test-method signature="test1()[pri:0, instance:demo.Login@51671b08]" started-at="2022-07-13T16:00:53 IST" name="test1" finished-at="2022-07-13T16:01:04 IST" duration-ms="11283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:demo.Login@51671b08]" started-at="2022-07-13T16:01:04 IST" name="test2" finished-at="2022-07-13T16:01:11 IST" duration-ms="7379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:demo.Login@51671b08]" started-at="2022-07-13T16:01:11 IST" name="test3" finished-at="2022-07-13T16:01:18 IST" duration-ms="7036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:demo.Login@51671b08]" started-at="2022-07-13T16:01:18 IST" name="test4" finished-at="2022-07-13T16:01:26 IST" duration-ms="7193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test6()[pri:0, instance:demo.Login@51671b08]" started-at="2022-07-13T16:01:26 IST" name="test6" finished-at="2022-07-13T16:01:32 IST" duration-ms="6893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:0, instance:demo.Login@51671b08]" started-at="2022-07-13T16:01:32 IST" name="test7" finished-at="2022-07-13T16:01:40 IST" duration-ms="7857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="aff()[pri:0, instance:demo.Login@51671b08]" started-at="2022-07-13T16:01:40 IST" name="aff" finished-at="2022-07-13T16:01:41 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aff -->
+      </class> <!-- demo.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

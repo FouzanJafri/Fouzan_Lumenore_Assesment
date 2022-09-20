@@ -1,0 +1,7 @@
+package Utilities;
+
+public class ConfigReader {
+	public static String ChromeName = "webdriver.chrome.driver";
+	public static String ChromePath = "src/test/resources/drivers/chromedriver.exe";
+	
+}

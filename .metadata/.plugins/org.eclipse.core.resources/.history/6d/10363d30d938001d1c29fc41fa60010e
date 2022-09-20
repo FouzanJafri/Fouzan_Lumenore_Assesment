@@ -1,0 +1,25 @@
+package TestPages;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import Abstract.AbsBase;
+import Abstract.Common;
+import Pages.DashBoard;
+import Pages.LoginPage;
+
+public class TestScript extends AbsBase{
+	@Test
+	public void test1() {
+		Common.WebDriver_Wait(LoginPage.Email_Field(driver));
+		LoginPage.Email_Field(driver).sendKeys("shubhamk@netlink.com");
+		LoginPage.Password_Field(driver).sendKeys("Testing@12345");
+		LoginPage.LoginButton(driver).click();
+		Assert.assertEquals(driver.getTitle(), "preview - Dashboards");
+		DashBoard.AskMe_Btn_NavBar(driver).click();
+		Common.WebDriver_Wait(DashBoard.AskMe_Search_Field(driver));
+		DashBoard.AskMe_Search_Field(driver).sendKeys("Customer segment customer name");
+		Common.WebDriver_Wait(DashBoard.SearchField(driver));
+		DashBoard.ListCorporate(driver);
+	}
+}

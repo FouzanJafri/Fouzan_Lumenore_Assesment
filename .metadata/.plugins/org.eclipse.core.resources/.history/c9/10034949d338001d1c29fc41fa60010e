@@ -1,0 +1,12 @@
+package Utilities;
+
+import org.openqa.selenium.WebDriver;
+
+public class BrowserManager {
+
+	public static void setProperty(WebDriver driver,String BrowserName) {
+		if (BrowserName.equalsIgnoreCase("chrome")) {
+			System.setProperty(Constant.ChromeName, Constant.ChromePath)
+		}
+	}
+}

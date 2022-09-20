@@ -1,0 +1,10 @@
+package Abstract;
+
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Common {
+	public static void WebDriver_Wait() {
+		WebDriverWait wait = new WebDriverWait(AbsBase.driver, 10);
+	}
+
+}

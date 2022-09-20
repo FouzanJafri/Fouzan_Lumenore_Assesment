@@ -1,0 +1,20 @@
+package Abstract;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+
+import Utilities.BrowserManager;
+import Utilities.ConfigReader;
+
+public class Base {
+	public WebDriver driver;
+	
+	@BeforeTest
+	public void beforeTest() throws IOException {
+		driver = BrowserManager.setProperty(driver, ConfigReader.ReadBrowserName());
+		driver.get(ConfigReader.ReadBrowserURL());
+	}
+
+}

@@ -1,0 +1,17 @@
+package TestPages;
+
+import org.testng.annotations.Test;
+
+import Abstract.AbsBase;
+import Abstract.Common;
+import Pages.LoginPage;
+
+public class TestScript extends AbsBase{
+	@Test
+	public void test1() {
+		Common.WebDriver_Wait(LoginPage.Email_Field(driver));
+		LoginPage.Email_Field(driver).sendKeys("shubhamk@netlink.com");
+		LoginPage.Password_Field(driver).sendKeys("Testing@12345");
+		LoginPage.LoginButton(driver).click();
+	}
+}

@@ -1,0 +1,18 @@
+package Pages;
+
+import org.jsoup.Connection.Base;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LoginPage {
+	
+	public static WebElement Email_Field(WebDriver driver) {
+		return driver.findElement(By.id("userName"));
+	}
+	public static WebElement Password_Field(WebDriver driver) {
+		return driver.findElement(By.id("password"));
+	}
+	
+
+}
